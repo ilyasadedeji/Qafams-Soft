@@ -1,0 +1,303 @@
+/* Custom CSS Styles */
+/* Global Styles */
+body,
+html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding-top: 2px; /* Adjust top padding */
+    padding-bottom: 2px; /* Adjust bottom padding */
+}
+.navbar-brand {
+    color: #0A265B !important;
+    font-weight: bold;
+    padding-top: -50px;
+    padding-bottom: -50px;
+}
+
+  
+
+.navbar-nav .nav-link {
+    color: #0A265B !important;
+    font-weight: bold;
+   
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+    padding-top: 30px; /* Adjust top padding */
+    padding-bottom: 30px; /* Adjust bottom padding */
+}
+
+/* Home Section Styles */
+.home-section {
+   
+    background-color: #EBF1FF;
+}
+
+.home-title {
+    color: #0A265B;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.home-image {
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: -50px;
+    height: 300px;
+}
+
+.home-text {
+    color: #0A265B;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #0A265B;
+    height: 50px;
+    width: 160px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #0A265B;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.about-image {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.about-text {
+    width: 70%;
+    margin: 0;
+    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+
+}
+.about-hd{
+    margin-top: -370px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+.about-text h2 {
+    font-size: 2em;
+    margin-top: -190px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+.about-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.about-text p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+    word-spacing: 1px;
+    font-size: 13px;
+}
+
+.about-btn {
+    width: 167px;
+    height: 57px;
+    border-radius: 7px;
+    border-color: #EBF1FF;
+    background-color: #0A265B;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+/* Mission Section Styles */
+#mission {
+    background-color: #EBF1FF;
+    padding: 50px 0;
+}
+
+.mission-text {
+    margin-left: 400px;
+}
+
+.container {
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+}
+
+.first-two-boxes,
+.second-two-boxes {
+    display: grid;
+}
+
+.second-two-boxes {
+    margin-top: 60px;
+}
+
+.text {
+    margin-left: auto;
+}
+
+.box {
+    background-color: #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    padding-left: 60px;
+}
+
+.box-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+h4 {
+    position: absolute;
+    color: #0A265B;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: -35px;
+}
+
+.sub-mission-text {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -45px;
+    font-size: 13px;
+    text-align: left;
+}
+
+/* Services Section Styles */
+#services {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #0A265B;
+    color: #fff;
+    padding: 50px 0;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    margin-bottom: 20px;
+}
+
+form .btn-primary {
+    background-color: #fff;
+    color: #3498db;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+form .btn-primary:hover {
+    background-color: #0A265B;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0A265B;
+    color: #fff;
+    padding: 20px 0;
+    height: 300px;
+}
+
+footer hr {
+    border-color: #fff;
+    margin-top: 180px;
+    margin-bottom: 45px;
+    width: 1200px;
+    margin-left: 50px;
+}
+
+.footer-text {
+    margin-left: 50px;
+}
+
+.social-icons {
+    margin-bottom: 0px;
+    text-align: right;
+    color: #EBF1FF;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-radius: 200pc;
+    border-style: none;
+    margin-left: 30px;
+}
+
+.space {
+    background: linear-gradient(to bottom,
+    #ebf0ff, #2953B5);
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    color: #0A265B;
+    margin-left: 50px;
+    border-color: #0A265B;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
+
+
